@@ -205,6 +205,7 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
+  cursor: pointer;
 
   font-weight: 700;
   font-size: 16px;
@@ -720,13 +721,18 @@ img {
   margin-bottom: 20px;
 }
 
-.subscribe input {
+.subscribe-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+  color: var(--primary-white-color);
   background-color: var(--hero-background-color);
+  outline: none;
   padding: 16px;
   width: 358px;
   margin-right: 12px;
+}
+.subscribe-input[placeholder] {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-button {
